@@ -29,7 +29,7 @@ export const defaultContext: {
 export default {
   configuration: {
     organizationId: "yorickcruseenablementaguon9qx",
-    accessToken: "xxx",
+    accessToken: "xxc1aa2397-b4e8-4b44-b5cf-addd9334f855",
     context: {
       ...defaultContext,
       view: {
