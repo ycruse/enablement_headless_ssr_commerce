@@ -2,6 +2,7 @@
 import {
   CommerceEngineDefinitionOptions,
   defineProductList,
+  defineRecommendations,
   defineCart,
   defineSearchBox,
   defineContext,
@@ -50,6 +51,11 @@ export default {
       options: { redirectionUrl: "/search" },
     }),
     instantProducts: defineInstantProducts(),
+    popularViewedHome: defineRecommendations({
+      options: {
+        slotId: process.env.NEXT_PUBLIC_POPULAR_VIEWED_HOME_SLOT_ID ?? "91f37f6d-bb54-4e1e-8e08-4cbcfc597adb",
+      },
+    }),
     parameterManager: defineParameterManager(),
     facetGenerator: defineFacetGenerator(),
     sort: defineSort(),

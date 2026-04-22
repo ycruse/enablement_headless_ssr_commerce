@@ -29,6 +29,7 @@ export const {
   useContext,
   useSummary,
   useStandaloneSearchBox,
+  usePopularViewedHome,
   useProductList,
   useInstantProducts,
   useSearchBox,
